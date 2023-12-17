@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketchit | Mike Bennett</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Sketchit</h1>
+    </header>
+    <div class="page-container" draggable="false">
+        <div class="grid-controls">
+            <div class="color-controls">
+                <div class="forecolor-container">
+                    <div class="color-box">
+                        <input type="color" name="forecolor" id="forecolor" value="#000000">
+                    </div>
+                    <span class="color">Pen Color</span>
+                </div>
+                <div class="backcolor-container">
+                    <div class="color-box">
+                        <input type="color" name="backcolor" id="backcolor" value="#FFFFFF">
+                    </div>
+                    <span class="color">Background Color<span>
+                </div>
+            </div>
+            <div class="fillpick-container">
+                <button id="fill-button">Color Fill</button>
+                <button id="picker-button">Color Picker</button>
+            </div>
+            <div class="pen-modifier-container">
+                <button id="pen">Pen</button>
+                <button id="eraser">Eraser</button>
+                <button id="prismatic">Prismatic</button>
+                <button id="darken">Darken</button>
+                <button id="brighten">Brighten</button>
+            </div>
+            <div class="slider">
+                <input type="range" id="size-slider" min="1" max="64" value="32">
+                <h6>Grid size: <span class="grid-size">32</span> x <span class="grid-size">32</span></h6>
+            </div>
+            <div class="grid-modifier-container">
+                <button id="grid-lines">Toggle Grid Lines</button>
+                <button id="clear">Clear</button>
+            </div>
+        </div>
+        <div class="grid"></div>
+    </div>
+</body>
+</html>

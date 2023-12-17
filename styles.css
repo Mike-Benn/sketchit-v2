@@ -1,0 +1,170 @@
+* {
+    background-color: #142d4c;
+    font-size: 14px;
+    font-family: Tahoma;
+    
+}
+
+h6 {
+    margin: 0;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+.fillpick-container , .pen-modifier-container , .grid-modifier-container , h6 , .grid-controls , .color-controls , .backcolor-container , .forecolor-container , input , label ,
+.color , button , .slider , .grid , .grid-size {
+    background-color: #385170;
+
+}
+
+header , .page-container , .color-controls , .backcolor-container , .forecolor-container , .slider , .grid , .grid-row {
+    display: flex;
+
+}
+
+.color-controls , .slider , .grid {
+    flex-direction: column;
+
+}
+
+.grid , .grid-controls , button {
+    border-radius: 2px;
+
+}
+
+.grid-row , .square {
+    flex: 1;
+
+}
+
+header , .page-container , .color-controls , .backcolor-container , .forecolor-container , button {
+    width: 100%;
+
+}
+
+h1 , input , label , .color , button , h6 {
+    color: #9fd3c7;
+
+}
+
+.fillpick-container , .pen-modifier-container , .grid-modifier-container , h6 {
+    margin-bottom: 30px;
+
+}
+
+.backcolor-container , .forecolor-container , .color-box {
+    overflow: hidden;
+
+}
+
+button , .color-box {
+    border: 1px solid #9fd3c7;
+    
+}
+
+
+
+.grid , .grid-controls {
+    height: 600px;
+    margin-top: 10px;
+
+}
+
+.grid , .grid-controls {
+    padding: 30px;
+
+}
+
+h1 {
+    font-size: 75px;
+    font-family: 'Bungee Shade', Tahoma;
+    margin-top: 35px;
+    
+}
+
+
+header , .color-controls , .slider {
+    justify-content: center;
+
+}
+
+.color-controls , .backcolor-container , .forecolor-container {
+    align-items: center;
+
+}
+
+.page-container {
+    height: 700px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+}
+
+.grid-controls {
+    width: 200px;
+    margin-left: 25px;
+
+}
+
+.color-controls {
+    margin-bottom: 25px;
+
+}
+
+.backcolor-container , .forecolor-container {
+    justify-content: left;
+    
+}
+
+input , label {
+    border: none;
+    
+}
+
+.color {
+    font-weight: 500;
+    
+}
+
+.color-box {
+    height: 30px;
+    width: 30%;
+    margin-right: 15px;
+
+}
+#forecolor , #backcolor {
+    padding: 0px;
+    width: 200%;
+    height: 200%;
+    transform: translateX(-9px) translateY(-9px);
+    
+}
+
+button {
+    display: block;
+    height: 33.5px;
+    
+}
+
+#fill-button , #eraser , #prismatic , #darken , .forecolor-container , #pen {
+    margin-bottom: 10px;
+
+}
+
+#grid-lines {
+    margin-bottom: 20px;
+
+}
+
+.grid {
+    width: 600px;
+    margin-right: 25px;
+
+}
+
+.square {
+    border: solid gray 1px;
+    background-color: white;
+    
+}
